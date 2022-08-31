@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Alexander Almeida - Academic Webpage"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Alexander Joseph Almeida"
 description              : &description "Research Fellow at Stanford GSB"
