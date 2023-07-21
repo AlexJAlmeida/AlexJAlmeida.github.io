@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently at the [Stanford GSB](https://www.gsb.stanford.edu/programs/research-fellows). I work on economic research with my mentors [Rebecca Diamond](https://www.rebecca-diamond.com/) and and [Juan Carlos Suárez Serrato](https://www.jcsuarez.com/). 
+I'm currently at the [Stanford GSB](https://www.gsb.stanford.edu/programs/research-fellows). 
+I work on economic research with my mentors [Rebecca Diamond](https://www.rebecca-diamond.com/) and [Guido Imbens](https://gsb-faculty.stanford.edu/guido-w-imbens/)
+I am lucky to have formerly been advised by [Juan Carlos Suárez Serrato](https://www.jcsuarez.com/). 
 
 I'm also affiliated with the [Cities, Housing, and Society Lab](https://chslab.stanford.edu/faculty-researchers) at the GSB. 
 
