@@ -6,7 +6,7 @@ layout: default
 
 
     <table
-        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        style="width:100%;border:0;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
         <tbody>
             <tr style="padding:0px">
                 <td style="padding:2.5%;width:70%;vertical-align:middle">
@@ -17,46 +17,7 @@ layout: default
                         class="hoverZoomLink">
                 </td>
             </tr>
-            <!-- 
-            To switch off color-alternation, add redundant row
-            <tr></tr>
-            <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                    {%- if site.posts.size > 0 -%}
-                    <h2 class="post-list-heading">{{ page.list_title | default: "News" }}</h2>
-                    <ul class="post-list">
-                        {%- for post in site.posts -%}
-                        <li style="margin:0px">
-                        <li>
-                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                            <span class="post-meta">{{ post.date | date: date_format }}</span>
-                            <h4>
-                                <a class="post-link" href="{{ post.url | relative_url }}">
-                                    {{ post.title | escape }}
-                                </a>
-                            </h4>
-                            {%- if site.show_excerpts -%}
-                            {{ post.excerpt }}
-                            {%- endif -%}
-                        </li>
-                        {%- endfor -%}
-                    </ul>
-                    {%- endif -%}
-                </td>
-                <td style="padding:2.5%;width:40%;max-width:40%">
-                </td>
-            </tr>
-            -->
         </tbody>
     </table>
-    <!--
-    <table style="width:100%; border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-        <tbody>
-            <tr style="padding:0px">
-                <td style="padding:0%; text-align:center">
-                    <img src="http://ghchart.rshah.org/AlexJAlmeida" alt="Ben's GitHub activity." />
-                </td>
-            </tr>
-    </table>
-    -->
+
 </div>
