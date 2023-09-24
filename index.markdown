@@ -10,7 +10,8 @@ Hi. I'm Alex.
 I'm a pre-doctoral research fellow at Stanford's Graduate School of Business, coadvised by 
 [Prof. Rebecca Diamond](https://www.rebecca-diamond.com/) and
 [Prof. Guido Imbens](https://gsb-faculty.stanford.edu/guido-w-imbens/).
-I'm also lucky to have been advised by [Prof. Juan Carlos Suárez Serrato](https://www.jcsuarez.com/).
+I'm also lucky to have been advised by
+[Prof. Juan Carlos Suárez Serrato](https://www.jcsuarez.com/).
 
 Before this, I completed my undergraduate education at Arizona State University, where I
 was studied Mathematics and Economics. I also interned at the Federal Reserve Bank of Dallas
