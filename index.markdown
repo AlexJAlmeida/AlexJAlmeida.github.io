@@ -19,3 +19,5 @@ at during that time.
 
 I'm broadly interested in econometric theory and its application to
 the fields of labor, public, and financial economics.
+
+[GitHub](https://github.com/AlexJAlmeida) \| [Twitter](https://twitter.com/alex_j_almeida) \| [Email](mailto:alexander.almeida@stanford.edu)
