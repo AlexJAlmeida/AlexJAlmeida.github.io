@@ -26,6 +26,7 @@ baseurl: ""                               # subpath of site. not used as base is
 
 # Other important
 title: Alexander Almeida 
+tagline: Economics PhD Student
 email: alexander.almeida@stanford.edu
 description: >-
   A website created by Alexander Almeida. Contains information and
