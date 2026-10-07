@@ -1,0 +1,189 @@
+\documentclass[line, margin, 10pt]{res}
+
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+
+% Widen the section label column slightly for multi-word labels
+\newsectionwidth{1.1in}
+
+% Tighten up list spacing
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% Page margins — res.cls sets textheight=9in by default; leave it alone
+% Just nudge the side margin and cap textheight sensibly
+\addtolength{\oddsidemargin}{-.1in}
+\setlength{\textwidth}{5.6in}
+\setlength{\textheight}{8.5in}
+\addtolength{\topmargin}{.1in}
+
+\begin{document}
+
+% ---------------------------------------------------------
+% Header: name left, rule, contact right
+% ---------------------------------------------------------
+\name{\Large Alexander Joseph Almeida}
+
+\begin{resume}
+
+% ---------------------------------------------------------
+% Contact block as first section, two-column, matching Paciorek style
+% ---------------------------------------------------------
+\section{\sc Contact\\ Information}
+\begin{ncolumn}{2}
+  Graduate School of Business          & \textit{WWW:} \href{https://alexjalmeida.github.io}{alexjalmeida.github.io} \\
+  Stanford University                  & \textit{E-mail:} \href{mailto:alexander.almeida@stanford.edu}{alexander.almeida@stanford.edu} \\
+  655 Knight Way                       & \\
+  Stanford, CA 94305                   & \\
+\end{ncolumn}
+
+% ---------------------------------------------------------
+\section{\sc Fields of\\ Interest}
+Econometrics, Causal Inference, Machine Learning
+
+% ---------------------------------------------------------
+\section{\sc Education}
+% ---------------------------------------------------------
+
+\textbf{Stanford University}, Stanford, CA \\
+Ph.D., Economic Policy, Graduate School of Business \hfill 2024 -- 2030 (expected) \\
+\hspace*{1em}\textit{Advisors:} Guido Imbens, Lihua Lei \\
+M.S., Statistics \hfill 2024 -- 2027 (expected) \\
+Research Fellow, Graduate School of Business \hfill 2022 -- 2024 \\[2pt]
+\textit{Fellowships \& Awards:} EDGE Doctoral Fellowship (Stanford VPGE)
+
+\vspace{4pt}
+
+\textbf{Arizona State University} -- Barrett, The Honors College, Tempe, AZ \\
+B.S.\ Economics \& B.S.\ Mathematics, GPA: 4.00/4.00 \hfill 2018 -- 2022 \\[2pt]
+\textit{Honors:} Dean's Medal -- Economics (Most Outstanding Graduate),
+Jonathan D.\ and Helen Wexler Award (Top 12 Seniors in Mathematics),
+Moeur Award (8 semesters above 4.0), Phi Beta Kappa, Beta Gamma Sigma \\[2pt]
+\textit{Scholarships:} National Hispanic Scholar (Full Tuition),
+IGNITE Fellowship -- Teach for America, Grady Gammage Scholarship,
+Earl \& Ellen Davis Memorial Scholarship, SCETL Founders' Scholarship,
+Business School Scholarship
+
+% ---------------------------------------------------------
+\section{\sc Working\\ Papers}
+% ---------------------------------------------------------
+
+Almeida, Alexander, Susan Athey, Guido Imbens, Eva Lestant, and Alexia Olaizola.
+``Estimating Variances for Causal Panel Data Estimators.''
+\textit{arXiv:2510.11841}, October 2025.
+\begin{itemize}
+  \item Develops a unified framework for variance estimation in causal panel data
+        settings; shows that the three main approaches (regression-based,
+        unit-placebo, and time-placebo) each target a different conditional variance
+        under distinct exchangeability assumptions, and proposes a new
+        heteroskedasticity-robust estimator with superior statistical power
+\end{itemize}
+
+\vspace{2pt}
+
+Almeida, Alexander, and Lihua Lei.
+``Compound Selection with Heteroskedastic Errors of Unknown Variance.''
+\textit{Work in progress.}
+\begin{itemize}
+  \item Develops an empirical Bayes approach to compound selection decisions,
+        extending prior work by Lei et al.\ to settings where observation variances
+        are unknown; relaxes the known-variance assumption in Stein's unbiased risk
+        estimation to handle heteroskedastic data
+\end{itemize}
+
+% ---------------------------------------------------------
+\section{\sc Research\\ Experience}
+% ---------------------------------------------------------
+
+\textbf{Stanford Graduate School of Business}, Stanford, CA \\
+\textit{Research Fellow} -- supervised by Prof.\ Rebecca Diamond and Prof.\ Guido Imbens
+\hfill Jun.\ 2022 -- Jun.\ 2024
+\begin{itemize}
+  \item Developed heteroskedasticity-robust variance estimators for causal panel
+        data settings, unifying regression-based, unit-placebo, and time-placebo
+        approaches under a common exchangeability framework
+  \item Constructed and managed terabyte-scale administrative data pipelines
+        supporting empirical research in labor and public economics
+  \item Contributed to three publications in labor and public economics (Garrett, Ohrn, Su\'{a}rez Serrato; Curtis et al.; Su\'{a}rez Serrato, Wingender)
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Federal Reserve Bank of Dallas}, Dallas, TX \\
+\textit{Research Intern} -- supervised by Dr.\ Ali Ozdagli
+\hfill Jun.\ 2021 -- Aug.\ 2021
+\begin{itemize}
+  \item Authored two original blog posts for the Dallas Fed Economics blog drawing
+        on research on firm financing and monetary policy transmission
+  \item Developed a literature review on environmental risk in financial markets
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Future H2O Economic Research}, Tempe, AZ \\
+\textit{Research Assistant} -- supervised by Prof.\ W.\ Michael Hanemann
+\hfill Mar.\ 2021 -- May 2022
+\begin{itemize}
+  \item Investigated hedonic property valuation of ecological attributes in Texas
+        flood basins
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{College of Health Solutions: Behavioral Health Research Lab}, Tempe, AZ \\
+\textit{Research Assistant} -- supervised by Prof.\ Chad Stecher
+\hfill Sep.\ 2020 -- May 2022
+\begin{itemize}
+  \item Designed and implemented a randomized controlled experiment to evaluate
+        behavioral automaticity
+  \item Applied machine learning methods to large mobile-health databases
+\end{itemize}
+
+% ---------------------------------------------------------
+\section{\sc Presentations}
+\begin{tabular}{@{}p{0.45in}p{4.95in}@{}}
+2026 & Empirical Methods in the Age of AI, Stanford University (poster)
+\end{tabular}
+
+% ---------------------------------------------------------
+\section{\sc Teaching}
+% ---------------------------------------------------------
+
+\textbf{Arizona State University -- Economics Department}, Tempe, AZ \\
+\textit{Teaching Assistant} -- Foundations of Microeconomics
+\hfill Oct.\ 2019 -- Jan.\ 2021
+\begin{itemize}
+  \item Assisted in developing coursework for a distance-learning MOOC platform
+        serving over 800 students
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Arizona State University Academic Success Programs}, Tempe, AZ \\
+\textit{Tutor} -- Economics, Finance, Mathematics
+\hfill Feb.\ 2020 -- Feb.\ 2021
+
+% ---------------------------------------------------------
+\section{\sc Skills}
+% ---------------------------------------------------------
+
+\textbf{Computing:} Bash, Python, R, Stata, Julia, MATLAB, C++, Java,
+\LaTeX, SQL; some experience in PyTorch, Tableau \\[3pt]
+\textbf{Languages:} English (native), Spanish (fluent)
+
+% ---------------------------------------------------------
+\section{\sc Service \&\\ Affiliations}
+% ---------------------------------------------------------
+
+\begin{itemize}
+  \item \textbf{Gammage Scholarship Program} -- Chair and Project Leader,
+        service-based leadership program for National Merit Scholars
+        (2018--2022)
+  \item \textbf{RISE Tutoring} -- Finance Committee Head, Refugee Integration
+        Stabilization and Education Scholars; recipient of ASU Pitchfork Award
+        for outstanding student organizations (2019--2022)
+\end{itemize}
+
+\end{resume}
+\end{document}
