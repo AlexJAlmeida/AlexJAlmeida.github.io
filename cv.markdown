@@ -1,9 +1,7 @@
 ---
-layout: page
-title: Curriculum Vitae
+title: CV
 permalink: /cv/
+nav_url: /files/cv.pdf
+redirect_to: /files/cv.pdf
+sitemap: false
 ---
-
-<object data="{{ '/files/cv.pdf' | relative_url }}" type="application/pdf" width="100%" height="1000px">
-    <p>Unable to display PDF file. <a href="{{ '/files/cv.pdf' | relative_url }}">Download</a> instead.</p>
-</object>

@@ -37,8 +37,12 @@ linkedin_username: alexanderjalmeida
 
 # Build settings
 theme: minima
+header_pages:
+  - research.markdown
+  - cv.markdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
